@@ -118,3 +118,59 @@ section a:hover {
 	background-size: 100%;
 	background-position: center;
 }
+
+.slideshow { 
+	height: 255px;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.slideshow figure {
+	display: inline-block;
+	margin: 0 auto;
+	position: absolute;
+	opacity: 0;
+	transition: 2s opacity;
+}
+
+.slideshow figure.show {
+	opacity: 1;
+	position: static;
+	transition: 2s opacity;
+}
+
+.slideshow figure img {
+	width: 900px;
+}
+
+.next, .prev {
+	color: #ffffff;
+	position: absolute;
+	background: rgba(0,0,0, 0.6);
+	top: 50%;
+	z-index: 1;
+	font-size: 2em;
+	margin-top: -.75em;
+	opacity: 0.3;
+	user-select: none;
+}
+
+.next:hover, .prev:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+.next {
+	right: 0;
+	padding: 10px 5px 15px 10px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.prev {
+	left: 0;
+	padding: 10px 10px 15px 5px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
