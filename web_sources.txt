@@ -6,4 +6,14 @@ IMAGES
 
 header_index from http://www.versesfrommykitchen.com/2011/08/long-weekends-and-a-simple-breakfast-sandwich.html
 
-story_section from http://getfitandmotivated.com/green-goddess-grilled-cheese-sandwich-recipe/
+story_section and slider images from http://getfitandmotivated.com/green-goddess-grilled-cheese-sandwich-recipe/
+
+order_section from http://www.lundlund.com/food-stylists/monica-eisenman/systrarna-eisenmans-mingelmat-2070/
+
+a2.jpg from http://www.pinterest.com/pin/491947959268404632/
+
+a1.jpg from http://www.pinterest.com/pin/338051515752634745/
+
+CODES
+slideshow inspiration on
+http://themarklee.com/2013/12/26/simple-diy-responsive-slideshow-made-html5-css3-javascript/

@@ -13,5 +13,9 @@ $('.prev').click(function(){
 	(counter)?counter--:counter=numItems;
    	showCurrent();
 });
+$('scrolltop').click(function(){
+	$('html,body').animate({scrollTop:0},600);
+	return false;
+});
 
 });
