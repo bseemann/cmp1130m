@@ -21,6 +21,13 @@ header {
 	background-position: center;
 }
 
+#contact_header {
+	background-image: url("../images/header_contact.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
 nav {
 	background: #000000;
 	background: -moz-linear-gradient(top, rgba(64,43,29,0.7) 0%, rgba(0,0,0,0.85) 100%);
@@ -50,9 +57,9 @@ nav ul li a {
 	font-style: normal;
 }
 
-nav ul li a:link {
+nav ul li a:link, nav ul li a:visited {
 	text-decoration: none;
-	color: white;
+	color: #ffffff;
 }
 
 nav ul li a:hover {
@@ -132,8 +139,8 @@ p, a {
 	font-style: normal;
 }
 
-a:link {
-	color: black;
+a:link, a:visited {
+	color: #000000;
 }
 
 a:hover {
@@ -160,15 +167,15 @@ a:hover {
 #contact_info_section {
 	height: 180px;
 	background: #000;
-	color: #fff;
+	color: #ffffff;
 	text-align: center;
 	line-height: 0.5;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 }
 
-#contact_info_section a:link {
-	color: #fff;
+#contact_info_section a:link, #contact_info_section a:visited {
+	color: #ffffff;
 	line-height: normal;
 	text-decoration: none;
 }
@@ -236,7 +243,7 @@ a:hover {
 	border-bottom-right-radius: 3px;
 }
 
-.scrolltop {
+.scrolltop, a:visited.scrolltop {
 	color: #ffffff;
 	text-decoration: none;
 	font-family: Convergence, Aldrich, serif;
@@ -248,6 +255,16 @@ a:hover {
 	left: 47%;
 	border-radius: 35px;
 	border-bottom: 1px solid #fff;
+}
+
+form, input, textarea {
+	font-family: Convergence, Aldrich, serif;
+	font-size: 13px;
+	font-style: normal;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 350px;
 }
 
 footer {
