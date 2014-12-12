@@ -1,0 +1,23 @@
+#contact_header {
+	background-image: url("../images/header_contact.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+form, input, textarea {
+	font-family: Convergence, Aldrich, serif;
+	font-size: 13px;
+	font-style: normal;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 350px;
+}
+
+#contact_info {
+	width: 30%;
+	display:inline-block;
+	float: left;
+	line-height: 0.5;
+}
