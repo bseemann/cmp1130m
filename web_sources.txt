@@ -10,10 +10,40 @@ story_section and slider images from http://getfitandmotivated.com/green-goddess
 
 order_section from http://www.lundlund.com/food-stylists/monica-eisenman/systrarna-eisenmans-mingelmat-2070/
 
+a24 from http://glorioussandwiches.blogspot.co.uk/2013/08/avocado-cabbage-tamari-club.html
+
+a23 from http://www.popsugar.com/food/Chicken-Burrata-Tomato-Sandwich-Recipe-33835503
+
+a19, a20 from http://heatherchristo.com/cooks/2013/09/17/brussels-sprouts-grilled-cheese-sandwich/
+
+a16, a17, a18.jpg from http://debarooroo.blogspot.co.uk/2012/09/veggie-sprout-sandwiches.html
+
+a15.jpg from http://mumbaiboss.com/2012/06/11/mumbais-21-best-sandwiches-2/
+
+a10, a13, a14.jpg from http://www.huffingtonpost.com/Menuism/top-ten-sandwiches-in-la_b_3268917.html
+
+a9.jpg from https://www.pressdispensary.co.uk/releases/c993426/Jean-Christophe-Novelli-creates-new-sandwich-to-celebrate-250-years.html
+
+a8 from http://www.snakeriverproduce.com/?page_id=20
+
+a5, a6, a7.jpg from http://www.tillamook.com/community/blog/top-5-cheesy-vegetarian-lunch-sandwiches/
+
+a4.jpg from http://simplyvegetarianrecipes.wordpress.com/2012/09/11/day-7-garden-veggie-sandwich/
+
+a3.jpg from http://menlo-park.eat24hours.com/sandwiches
+
 a2.jpg from http://www.pinterest.com/pin/491947959268404632/
 
 a1.jpg from http://www.pinterest.com/pin/338051515752634745/
 
+sw-platter from http://www.marksandspencer.com/luxury-sandwich-platter-20-sandwich-quarters-/p/p21097171
+
 CODES
 slideshow inspiration on
 http://themarklee.com/2013/12/26/simple-diy-responsive-slideshow-made-html5-css3-javascript/
+
+
+READ
+http://www.w3schools.com/css/css3_borders.asp
+http://www.w3schools.com/html/html_forms.asp
+

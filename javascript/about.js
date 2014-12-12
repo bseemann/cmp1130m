@@ -4,7 +4,9 @@ $(document).ready(function(){
 });
 
 function load_text(obj){
-		document.getElementById('content').innerHTML='<object type="text/html" data="about/'+obj+'.html"></object>';
-	};
+	document.getElementById('content').innerHTML='<object type="text/html" data="about/'+obj+'.html"></object>';
+};
 
-
+function change_title(title){
+	document.getElementById('title').innerHTML=title;
+};
