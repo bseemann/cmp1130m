@@ -4,3 +4,19 @@
 	background-size: 100%;
 	background-position: center;
 }
+
+figure {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	padding-left:12px;
+}
+
+figure img {
+	width: 100%;
+}
+
+img:hover { 
+	opacity: 0.1;
+}
