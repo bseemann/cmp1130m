@@ -1,0 +1,35 @@
+#order_header {
+	background-image: url("../images/header_order.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+form, input, textarea {
+	font-family: Convergence, Aldrich, serif;
+	font-size: 13px;
+	font-style: normal;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 350px;
+}
+
+div.left, div.center, div.right{
+	display: inline-block;
+	height: 120px;
+}
+
+.left {
+	float: left;
+}
+
+.center { 
+	float: center;
+	padding-left: 50px;
+}
+
+.right {
+	float: right;
+}
+

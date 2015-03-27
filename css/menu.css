@@ -5,6 +5,13 @@
 	background-position: center;
 }
 
+#promotions_header {
+	background-image: url("../images/header_promotions.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
 figure {
 	display: inline-block;
 	width: 200px;
@@ -13,10 +20,29 @@ figure {
 	padding-left:12px;
 }
 
-figure img {
-	width: 100%;
+.on-hover-effect {
+	position: relative;
 }
 
-img:hover { 
-	opacity: 0.1;
+.on-hover-text {
+	display: none;
+	position: absolute;
+	margin: 0px 30px;
+	top: 35%;
+	z-index: 1;
+	font-family: Convergence, Aldrich, serif;
+	font-size: 24px;
+	text-align: center;
+}
+
+.on-hover-effect:hover img {
+	opacity: 0.4;
+}
+
+.on-hover-effect:hover .on-hover-text {
+	display: block;
+}
+
+.menu-info-dialog {
+	display: none;
 }

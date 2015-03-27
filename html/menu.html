@@ -9,6 +9,9 @@
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Homemade+Apple" />
 	  	<link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
 	  	<link rel="stylesheet" type="text/css" href="../css/menu.css" />
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+		<script type="text/javascript" src="../javascript/menu.js"></script>
 
 	</head>
 	<body>
@@ -16,13 +19,13 @@
 			<header id="menu_header">
 				<nav>
 					<ul>
-						<li><a href="about.html">about</a></li>
-						<li><a href="testimonials.html">testimonials</a></li>
-						<li><a href="menu.html">menu</a></li>
-						<li><a href="index.html">LOGO</a></li>
-						<li><a href="order.html">order</a></li>
-						<li><a href="promotions.html">promotions</a></li>
-						<li><a href="contact.html">contact</a></li>
+						<li><a href="about.html" class="nav_link">about</a></li>
+						<li><a href="testimonials.html" class="nav_link">testimonials</a></li>
+						<li><a href="menu.html" class="nav_link">menu</a></li>
+						<li><a href="index.html"><div class="logo"></div></a></li>
+						<li><a href="order.html" class="nav_link">order</a></li>
+						<li><a href="promotions.html" class="nav_link">promotions</a></li>
+						<li><a href="contact.html" class="nav_link">contact</a></li>
 					</ul>
 				</nav>
 
@@ -33,22 +36,45 @@
 				<h2>Menu</h2>
 				<section>
 					<figure>
-						<img src="../images/menu-salami.jpg" alt="Salami Tower">
+					    <div class="on-hover-effect" id="menu-salami">
+							<img src="../images/menu-salami.jpg" alt="Salami Tower">
+							<div class="on-hover-text">Salami Tower</div>
+							<div class="menu-info-dialog" id="menu-salami-dialog">
+								<h1>Salami Tower</h1>
+								<p>Three layers of bread, salami and any delicious sauce you like. This sandwich should be called tasty-hunger-killer!</p>
+								<p>£ 3.50</p>
+							</div>
+					   	</div>
 					</figure>
 					<figure>
-						<img src="../images/menu-grandma.jpg" alt="Grandma Special">
+					    <div class="on-hover-effect">
+							<img src="../images/menu-grandma.jpg" alt="Grandma Special">
+							<div class="on-hover-text">Grandma Special</div>
+						</div>
+					</figure>
+					<figure> 
+						<div class="on-hover-effect">
+							<img src="../images/menu-salmon.jpg" alt="Pinched Salmon">
+							<div class="on-hover-text">Pinched Salmon</div>
+						</div>
 					</figure>
 					<figure>
-						<img src="../images/menu-salmon.jpg" alt="Salmon on the Stick">
+						<div class="on-hover-effect">
+							<img src="../images/menu-royal.jpg" alt="Royal Bagel">
+							<div class="on-hover-text">Royal Bagel</div>
+						</div>
 					</figure>
 					<figure>
-						<img src="../images/menu-royal.jpg" alt="Royal Bagel">
+						<div class="on-hover-effect">
+							<img src="../images/menu-meaty.jpg" alt="Meaty Baguette">
+							<div class="on-hover-text">Meaty Baguette</div>
+						</div>
 					</figure>
 					<figure>
-						<img src="../images/menu-meaty.jpg" alt="Meaty Baguette">
-					</figure>
-					<figure>
-						<img src="../images/menu-surprise.jpg" alt="Surprise Roll">
+						<div class="on-hover-effect">
+							<img src="../images/menu-surprise.jpg" alt="Surprise Roll">
+							<div class="on-hover-text">Surprise Roll</div>
+						</div>
 					</figure>
 				
 				</section>
